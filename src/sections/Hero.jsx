@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="bg-[url('src/imgs/coffee-beans-1.jpg')] h-[90vh] max-md:h-[110vh] max-sm:h-[80vh] bg-no-repeat bg-cover bg-center flex justify-center items-center">
+    <section className="bg-[url('src/imgs/coffee-beans-1.jpg')] h-[100vh] max-md:h-[110vh] max-sm:h-[80vh] bg-no-repeat bg-cover bg-center flex justify-center items-center">
       <div className="flex flex-col items-center max-w-162 max-md:max-w-125">
         <h1 className="text-red-600 font-dancing font-bold text-7xl mb-2 max-md:text-5xl max-md:mb-0">A sip of joy</h1>
         <p className="text-2xl text-white mb-4 max-md:text-[19px] max-md:mb-0">A unique world of flavers</p>

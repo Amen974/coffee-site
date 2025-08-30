@@ -10,7 +10,7 @@ const BestSell = () => {
       <div className='bg-black bg-[url("src/imgs/coffee-beans-left.png")] bg-no-repeat bg-contain bg-left h-[45vh] flex items-center justify-center max-sm:h-[30vh] max-sm:bg-cover max-md:h-[80vh]'>
         <div className='flex items-center justify-center gap-11'>
           <div>
-            <a href=""><img src="src/imgs/americano (1).jpg" alt="" className='h-[200px] rounded-full max-sm:h-[135px]'/></a>
+            <a href=""><img src="src/imgs/americano (1).jpg" alt="" className='h-[190px] rounded-full max-sm:h-[135px]'/></a>
           </div>
           <div className='text-white max-sm:flex-1'>
             <h1 className='text-red-700 text-6xl font-dancing font-bold max-sm:text-5xl max-sm:mb-5 max-sm:mr-1'>Americano</h1>
@@ -27,14 +27,14 @@ const BestSell = () => {
           <a href="" className='bg-red-700 text-[15px] p-[12px] rounded-[2px] max-sm:ml-1'>Order now</a>
         </div>
         <div>
-          <a href=""><img src="src/imgs/Cortado.jpg" alt="" className='h-[200px] rounded-full max-sm:h-[135px]'/></a>
+          <a href=""><img src="src/imgs/Cortado.jpg" alt="" className='h-[190px] rounded-full max-sm:h-[135px]'/></a>
         </div>
       </div>
 
       <div className='bg-black bg-[url("src/imgs/coffee-beans-left.png")] bg-no-repeat bg-contain bg-left h-[45vh] flex items-center justify-center max-sm:h-[30vh] max-sm:bg-cover max-md:h-[80vh]'>
         <div className='flex items-center justify-center gap-11'>
           <div>
-            <a href=""><img src="src/imgs/creamy latte.jpg" alt="" className='h-[200px] rounded-full max-sm:h-[135px]'/></a>
+            <a href=""><img src="src/imgs/creamy latte.jpg" alt="" className='h-[190px] rounded-full max-sm:h-[135px]'/></a>
           </div>
           <div className='text-white max-sm:flex-1'>
             <h1 className='text-red-700 text-6xl font-dancing font-bold max-sm:text-5xl max-sm:mb-5 max-sm:mr-1'>creamy latte</h1>

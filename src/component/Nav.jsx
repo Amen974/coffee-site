@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Menu, X } from 'lucide-react' // icon library (install with: npm i lucide-react)
+import { Menu, X } from 'lucide-react'
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -10,7 +10,7 @@ const Nav = () => {
       <div className="font-dancing font-bold text-red-700 text-[20px] mr-16">AMEN</div>
 
       {/* Desktop Nav */}
-      <ul className="hidden sm:flex items-center justify-between flex-1 mr-16">
+      <ul className="hidden md:flex items-center justify-between flex-1 mr-16">
         <li><a href="" className="px-2 py-1.5 hover:bg-[#2d1b14] hover:text-white hover:rounded-[10px] duration-200">Home</a></li>
         <li><a href="" className="px-2 py-1.5 hover:bg-[#2d1b14] hover:text-white hover:rounded-[10px] duration-200">Best sell</a></li>
         <li><a href="" className="px-2 py-1.5 hover:bg-[#2d1b14] hover:text-white hover:rounded-[10px] duration-200">Services</a></li>
@@ -20,7 +20,7 @@ const Nav = () => {
 
       {/* Mobile Burger */}
       <button
-        className="sm:hidden ml-auto"
+        className="md:hidden ml-auto"
         onClick={() => setIsOpen(!isOpen)}
       >
         {isOpen ? <X size={28} /> : <Menu size={28} />}
@@ -28,7 +28,7 @@ const Nav = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <ul className="absolute top-[70px] left-0 w-full bg-white flex flex-col items-center gap-4 py-6 border-t border-black sm:hidden">
+        <ul className="absolute top-[70px] left-0 w-full bg-white flex flex-col items-center gap-4 py-6 border-t border-black md:hidden">
           <li><a href="" className="px-2 py-1.5 hover:bg-[#2d1b14] hover:text-white hover:rounded-[10px] duration-200">Home</a></li>
           <li><a href="" className="px-2 py-1.5 hover:bg-[#2d1b14] hover:text-white hover:rounded-[10px] duration-200">Best sell</a></li>
           <li><a href="" className="px-2 py-1.5 hover:bg-[#2d1b14] hover:text-white hover:rounded-[10px] duration-200">Services</a></li>
