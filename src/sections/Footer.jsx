@@ -3,7 +3,7 @@ import { Instagram, Facebook, Twitter, Phone, Mail, MapPin } from "lucide-react"
 
 const Footer = () => {
   return (
-    <section className='flex gap-4 p-16 bg-black text-white'>
+    <section className='flex flex-wrap gap-4 max-sm:p-4 max-md:p-8 p-16 bg-black text-white'>
       <div className='flex flex-col flex-1 gap-8 '>
         <div>
           <h1 className='text-red-700 font-bold font-dancing text-4xl'>AMEN</h1>
