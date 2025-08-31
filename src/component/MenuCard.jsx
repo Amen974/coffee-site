@@ -7,7 +7,7 @@ const MenuCard = ({ img, name, price }) => {
       <img src={img} alt={name} height={200} width={200} className='rounded-2xl object-cover h-[200px]' />
     </div>
     <div>
-      <h3 className='font-dancing text-red-700 text-4xl font-bold'>{name}</h3>
+      <h3 className='font-dancing text-red-700 text-4xl font-bold my-2'>{name}</h3>
       <p>{price}</p>
     </div>
     </div>

@@ -3,8 +3,13 @@ import { coffeeList } from '../constent'
 import MenuCard from '../component/MenuCard'
 const Menu = () => {
   return (
-    <section className='flex flex-wrap justify-evenly gap-4 p-6 bg-black text-white'>
-      {coffeeList.map(coffee=>(
+    <section className='bg-black text-white p-6 flex flex-col items-center'>
+      <div className='pb-6'>
+        <h1 className='text-red-700 font-bold font-dancing text-6xl'>Menu </h1>
+      </div>
+      
+      <div className='flex flex-wrap justify-evenly gap-4'>
+        {coffeeList.map(coffee=>(
         <MenuCard 
           key={coffee.id}
           img={coffee.img}
@@ -12,6 +17,8 @@ const Menu = () => {
           price={coffee.price}
         />
       ))}
+      </div>
+      
     </section>
   )
 }
