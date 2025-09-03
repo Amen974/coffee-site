@@ -4,7 +4,7 @@ import { faMugHot, faChair, faBolt } from '@fortawesome/free-solid-svg-icons'
 
 const Services = () => {
   return (
-    <section className='flex flex-wrap items-center justify-evenly p-8 gap-8 min-h-[50vh] bg-black text-white'>
+    <section id='Services' className='flex flex-wrap items-center justify-evenly p-8 gap-8 min-h-[50vh] bg-black text-white'>
       <div className='flex-1 flex flex-col items-center justify-center max-w-[350px] min-w-[250px]'>
         <FontAwesomeIcon icon={faMugHot} size="2x" className='text-amber-800 mb-3'/>
         <h3 className="text-2xl font-semibold text-red-700 mb-2">Freshly Brewed</h3>

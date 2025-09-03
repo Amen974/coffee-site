@@ -24,7 +24,7 @@ const Footer = () => {
           </a>
         </nav>
         <div>
-          <a href="#" className="text-white bg-red-700 text-[1rem] px-5 py-2 rounded-md shadow-md hover:bg-red-800 transition">Back To Top</a>
+          <a href="#Hero" className="text-white bg-red-700 text-[1rem] px-5 py-2 rounded-md shadow-md hover:bg-red-800 transition">Back To Top</a>
         </div>
       </div>
 
@@ -48,10 +48,10 @@ const Footer = () => {
           <h2 className='text-[1.2rem]'>Site Map</h2>
         </div>
         <nav className='flex flex-col gap-5'>
-          <a href="">Home</a>
-          <a href="">Best sell</a>
-          <a href="">Services</a>
-          <a href="">Menu</a>
+          <a href="#Hero">Home</a>
+          <a href="#Best sell">Best sell</a>
+          <a href="#Services">Services</a>
+          <a href="#Menu">Menu</a>
           <a href="">Contact</a>
         </nav>
       </div>

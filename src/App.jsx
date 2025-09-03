@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { Routes, Route, Link } from "react-router-dom";
 import './App.css'
 import{Hero,
   BestSell,
@@ -10,9 +10,7 @@ import{Hero,
 import Nav from './component/Nav';
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
+ return (
     <main>
       <Nav/>
       <section>
