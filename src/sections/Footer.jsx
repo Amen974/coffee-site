@@ -48,11 +48,11 @@ const Footer = () => {
           <h2 className='text-[1.2rem]'>Site Map</h2>
         </div>
         <nav className='flex flex-col gap-5'>
-          <a href="#Hero">Home</a>
-          <a href="#Best sell">Best sell</a>
-          <a href="#Services">Services</a>
-          <a href="#Menu">Menu</a>
-          <a href="">Contact</a>
+          <a href="/#Hero">Home</a>
+          <a href="/#Best sell">Best sell</a>
+          <a href="/#Services">Services</a>
+          <a href="/#Menu">Menu</a>
+          <a href="/contact">Contact</a>
         </nav>
       </div>
         

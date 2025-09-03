@@ -2,7 +2,7 @@ import React from 'react'
 
 const BestSell = () => {
   return (
-    <section id='Best-sell'>
+    <section id='BestSell'>
       <div className='bg-black bg-[url("src/imgs/coffee-beans-right.png")] bg-no-repeat bg-contain bg-right h-[45vh] flex items-center justify-center max-sm:h-[30vh] max-sm:bg-cover max-md:h-[80vh]'style={{ backgroundImage: 'url("imgs/coffee-beans-right.png")' }}>
         <h1 className='font-dancing text-red-700 text-[150px] font-bold max-sm:text-[100px]'>Best Sell</h1>
       </div>
