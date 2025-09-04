@@ -8,7 +8,7 @@ const Nav = () => {
   const linkStyle = "px-2 py-1.5 hover:bg-[#2d1b14] hover:text-white hover:rounded-[10px] duration-200"
 
   return (
-    <header className="flex items-center bg-white border-black border-solid border-b-4 border-t-2 z-10 py-4 px-4">
+    <header className="flex items-center bg-white border-black border-solid border-b-4 border-t-2  py-4 px-4">
       {/* Logo */}
       <div className="font-dancing font-bold text-red-700 text-[20px] mr-16">AMEN</div>
 

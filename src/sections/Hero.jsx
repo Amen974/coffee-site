@@ -9,8 +9,8 @@ const Hero = () => {
           creamy latte, every cup is brewed to awaken your senses and brighten your day.
         </p>
         <div className="flex gap-4 justify-center items-center mt-1 mb-7  max-md:mb-2">
-          <a href="#Menu" className="text-white bg-red-700 text-[1rem] px-5 py-2 rounded-md shadow-md hover:bg-red-800 transition">Eplore more</a>
-          <a href="#Services" className="bg-white text-[15px] px-5 py-2 rounded-md shadow-md hover:bg-gray-200 transition">Learn more</a>
+          <a href="#Menu" className="text-white bg-red-700 text-[1rem] px-5 py-2 rounded-md shadow-md hover:bg-red-800">Eplore more</a>
+          <a href="#Services" className="bg-white text-[15px] px-5 py-2 rounded-md shadow-md hover:bg-gray-200">Learn more</a>
         </div>
         <div className="flex gap-8 text-green-700 px-6 py-4">
           <div className="text-center">

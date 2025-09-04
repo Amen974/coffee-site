@@ -1,4 +1,3 @@
-import React from 'react'
 import { Instagram, Facebook, Twitter, Phone, Mail, MapPin } from "lucide-react";
 
 const Footer = () => {
@@ -14,13 +13,13 @@ const Footer = () => {
         </div>
         <nav className='flex gap-4'>
           <a href="#">
-          <Instagram size={24} />
+          <Instagram size={24} className="hover:text-red-700" />
           </a>
           <a href="#">
-          <Facebook size={24} />
+          <Facebook size={24} className="hover:text-red-700" />
           </a>
           <a href="#">
-          <Twitter size={24} />
+          <Twitter size={24} className="hover:text-red-700" />
           </a>
         </nav>
         <div>
