@@ -1,33 +1,17 @@
 import { Routes, Route } from "react-router-dom";
-import './App.css'
-import { Hero, BestSell, Services, Menu, Footer } from './sections';
-import Nav from './component/Nav';
+import "./App.css";
 import Contact from "./pages/Contact";
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
     <main>
-      <Nav />
       <Routes>
-        {/* Home Page */}
-        <Route
-          path="/"
-          element={
-            <>
-              <section><Hero /></section>
-              <section><BestSell /></section>
-              <section><Services /></section>
-              <section><Menu /></section>
-              <section><Footer /></section>
-            </>
-          }
-        />
-
-        {/* Contact Page */}
+        <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </main>
-  )
+  );      
 }
 
-export default App
+export default App;
