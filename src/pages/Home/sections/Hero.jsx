@@ -39,7 +39,7 @@ const Hero = () => {
     <section
       id="Hero"
       className="h-[100vh] max-md:h-[110vh] max-sm:h-[80vh] bg-no-repeat bg-cover bg-center flex justify-center items-center bg-black"
-      style={{ backgroundImage: 'url("/imgs/hero-bg.webp")' }}
+      style={{ backgroundImage: 'url("/imgs/coffee-beans-1(1) try.webp")' }}
     >
       <div className="flex flex-col items-center max-w-162 max-md:max-w-125">
         <h1 className="text-red-600 font-dancing font-bold text-7xl mb-2 max-md:text-5xl max-md:mb-0 opacity-0 translate-y-10 hero-h1">
