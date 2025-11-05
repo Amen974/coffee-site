@@ -1,46 +1,13 @@
-import { useGSAP } from "@gsap/react";
-import gsap from "gsap";
 import { Link } from "react-router-dom";
-import { ScrollTrigger } from "gsap/all";
 
-gsap.registerPlugin(ScrollTrigger)
 const BestSell = () => {
-  useGSAP(()=>{
-    gsap.fromTo('.best-1',{
-      x:300,
-      opacity:0,
-    },{
-      x:0,
-      opacity:1,
-      ease:'power1.inOut',
-      scrollTrigger:{
-        trigger: '.best-1',
-        start: 'top 80%',
-        end:'top 50%',
-        toggleActions: 'play none none none'
-      }
-    })
-
-    gsap.fromTo(
-      '.best-bg',
-      { x: 300 },
-      {
-        x: 0,
-        ease: 'power1.inOut',
-        scrollTrigger: {
-          trigger: '.best-1',
-          start: 'top 80%',
-          toggleActions: 'play none none none',
-        },
-      }
-    );
-
-  },[])
   return (
     <section id="BestSell">
-     <div className='relative bg-black h-[45vh] flex items-center justify-center max-sm:h-[30vh] max-md:h-[80vh] overflow-hidden'>
-        <div className="absolute inset-0 bg-no-repeat bg-contain bg-right bg-[url('imgs/coffee-beans-right.png')] best-bg"></div>
-        <h1 className="font-dancing text-red-700 text-[150px] font-bold max-sm:text-[100px] best-1 relative z-10">
+      <div
+        className='bg-black bg-[url("src/imgs/coffee-beans-right.png")] bg-no-repeat bg-contain bg-right h-[45vh] flex items-center justify-center max-sm:h-[30vh] max-sm:bg-cover max-md:h-[80vh]'
+        style={{ backgroundImage: 'url("imgs/coffee-beans-right.png")' }}
+      >
+        <h1 className="font-dancing text-red-700 text-[150px] font-bold max-sm:text-[100px]">
           Best Sell
         </h1>
       </div>
