@@ -8,7 +8,7 @@ const Hero = () => {
     
     tl.to('.title',{opacity:1, y:0})
       .to('.sub-title',{opacity:1, y:0}, '-=0.2')
-      .fromTo('.para',{opacity:0, y:20},{opacity:1, y:0}, '-=0.3')
+      .fromTo('.para',{opacity:0, y:20},{opacity:1, y:0}, '-=0.2')
       .fromTo('.button',{opacity:0, y:20},{opacity:1, y:0}, '-=0.4')
       .fromTo('.num',{opacity:0, y:20},{opacity:1, y:0}, '-=0.3')
       .fromTo('.des',{opacity:0, y:20},{opacity:1, y:0}, '-=0.4')
