@@ -15,14 +15,14 @@ const BestSell = () => {
       ease:'power1.inOut',
       scrollTrigger:{
         trigger: '.best1',
-        start: 'top 80%', 
+        start: 'top 70%', 
       }
     })
 
     const americanoTl = gsap.timeline({
       scrollTrigger:{
         trigger: '.best2',
-        start: 'top 80%', 
+        start: 'top 70%', 
       }
     })
 
@@ -32,7 +32,7 @@ const BestSell = () => {
     const creamyLatteTl = gsap.timeline({
       scrollTrigger:{
         trigger: '.creamy-latte',
-        start: 'top 80%', 
+        start: 'top 70%', 
       }
     })
 
@@ -42,7 +42,7 @@ const BestSell = () => {
     const cortadoTl = gsap.timeline({
       scrollTrigger:{
         trigger: '.cortado',
-        start: 'top 80%', 
+        start: 'top 70%', 
       }
     })
 
@@ -51,7 +51,6 @@ const BestSell = () => {
   },[])
   return (
     <section id="BestSell">
-      {/* First section remains the same */}
       <div className='bg-black h-[45vh] flex items-center justify-center max-sm:h-[30vh] max-sm:bg-cover max-md:h-[80vh] relative overflow-hidden'>
         <img src="/imgs/coffee-beans-right.png" alt="right-beans" className="absolute right-0 h-full object-contain best1" />
         <h1 className="font-dancing text-red-700 text-[150px] font-bold max-sm:text-[100px] z-10 best1">
