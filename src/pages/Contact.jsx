@@ -16,7 +16,7 @@ const Contact = () => {
         <div className=" flex justify-center p-10 gap-10 max-w-4xl w-full max-sm:flex-col">
           <div className="flex flex-col justify-center gap-8 w-1/2 max-sm:w-full">
             <div>
-              <h1 className="text-red-700 font-bold font-dancing text-6xl mb-3 max-sm:text-center">
+              <h1 className="text-red-700 font-bold dancing-script text-6xl mb-3 max-sm:text-center">
                 Get in Touch
               </h1>
               <p className="text-[18px] text-gray-300 max-sm:text-center">

@@ -22,7 +22,7 @@ const Hero = () => {
       rel="preload"
     >
       <div className="flex flex-col items-center max-w-162 max-md:max-w-125">
-        <h1 className="text-red-600 font-dancing font-bold text-7xl mb-2 max-md:text-5xl max-md:mb-0 opacity-0 translate-y-10 title">
+        <h1 className="text-red-600 font-bold text-7xl mb-2 max-md:text-5xl max-md:mb-0 opacity-0 translate-y-10 dancing-script title">
           A sip of joy
         </h1>
         <p className="text-2xl text-white max-md:text-[19px] max-md:mb-0 opacity-0 translate-y-10 sub-title">

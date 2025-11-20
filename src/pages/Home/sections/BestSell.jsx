@@ -53,7 +53,7 @@ const BestSell = () => {
     <section id="BestSell">
       <div className='bg-black h-[45vh] flex items-center justify-center max-sm:h-[30vh] max-sm:bg-cover max-md:h-[80vh] relative overflow-hidden'>
         <img src="/imgs/coffee-beans-right.png" alt="right-beans" className="absolute right-0 h-full object-contain best1" />
-        <h1 className="font-dancing text-red-700 text-[150px] font-bold max-sm:text-[100px] z-10 best1">
+        <h1 className="dancing-script text-red-700 text-[150px] font-bold max-sm:text-[100px] z-10 best1">
           Best Sell
         </h1>
       </div>
@@ -73,7 +73,7 @@ const BestSell = () => {
             </Link>
           </div>
           <div className="text-white max-sm:flex-1">
-            <h2 className="text-red-700 text-6xl font-dancing font-bold max-sm:text-5xl max-sm:mb-5 max-sm:mr-1 best2">
+            <h2 className="text-red-700 text-6xl dancing-script font-bold max-sm:text-5xl max-sm:mb-5 max-sm:mr-1 best2">
               Americano
             </h2>
             <p className="max-w-[400px] my-[16px] max-sm:hidden best2">
@@ -92,7 +92,7 @@ const BestSell = () => {
         <img src="/imgs/coffee-beans-right.png" alt="right-beans" className="absolute right-0 h-full object-contain cortado" />
         <div className="flex items-center justify-center gap-11 relative z-10">
           <div className="text-white max-sm:flex-1">
-            <h2 className="text-red-700 text-6xl font-dancing font-bold max-sm:text-5xl max-sm:mb-5 max-sm:ml-1 cortado">
+            <h2 className="text-red-700 text-6xl dancing-script font-bold max-sm:text-5xl max-sm:mb-5 max-sm:ml-1 cortado">
               Cortado
             </h2>
             <p className="max-w-[400px] my-[16px] max-sm:hidden cortado">
@@ -134,7 +134,7 @@ const BestSell = () => {
             </Link>
           </div>
           <div className="text-white max-sm:flex-1">
-            <h2 className="text-red-700 text-6xl font-dancing font-bold max-sm:text-5xl max-sm:mb-5 max-sm:mr-1 creamy-latte">
+            <h2 className="text-red-700 text-6xl dancing-script font-bold max-sm:text-5xl max-sm:mb-5 max-sm:mr-1 creamy-latte">
               Creamy Latte
             </h2>
             <p className="max-w-[400px] my-[16px] max-sm:hidden creamy-latte">

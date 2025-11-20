@@ -12,7 +12,7 @@ const MenuCard = ({ img, name, price }) => {
         />
       </div>
       <div>
-        <p className="font-dancing text-red-700 text-4xl font-bold my-2">
+        <p className="dancing-script text-red-700 text-4xl font-bold my-2">
           {name}
         </p>
         <p>{price}</p>
